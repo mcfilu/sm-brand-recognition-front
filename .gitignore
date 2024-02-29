@@ -56,6 +56,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 
 
 # Dependency directories
@@ -89,3 +90,23 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+=======
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> 1d051b1 (adding the partially working application files)
