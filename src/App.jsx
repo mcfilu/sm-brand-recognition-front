@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from './style';
 import { Routes, Route } from 'react-router-dom';
-
-
 import Welcome from './pages/Welcome';
 import Login from './pages/Login';
 import Campaign from './pages/Campaign';
@@ -30,8 +28,6 @@ const App = () => {
           <Route path="/home/campaign/influencer" element={<Influencer />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/forgotten" element={<Forgotten />} />
-
-
           
        </Routes>
     </>
